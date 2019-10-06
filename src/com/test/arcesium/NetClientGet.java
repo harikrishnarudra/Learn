@@ -13,6 +13,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+/*
+Create a program to read Json objects and parse them. Create two object sets and calculate total value of holdings.
+ */
+
 
 public class NetClientGet {
 
