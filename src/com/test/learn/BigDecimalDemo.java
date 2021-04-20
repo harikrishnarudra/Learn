@@ -10,11 +10,12 @@ public class BigDecimalDemo {
         BigDecimal bg1, bg2;
 
         bg1 = new BigDecimal("123.12678");
-        //bg1 = new BigDecimal("123.12178");
-        bg1 = new BigDecimal("0.378917");
+        bg1 = new BigDecimal("123.12178");
+//        bg1 = new BigDecimal("0.378917");
+//        bg1 = new BigDecimal("23.124");
 
         // set scale of bg1 to 2 in bg2 using floor as rounding mode
-        bg2 = bg1.setScale(2, RoundingMode.HALF_UP);
+        bg2 = bg1.setScale(2, RoundingMode.UP);
 
         String str = bg1 + " after changing the scale to 2 and rounding is " + bg2;
 

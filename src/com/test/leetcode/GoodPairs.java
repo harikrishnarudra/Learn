@@ -1,9 +1,6 @@
-package com.test.learn.leetcode;
-import java.util.*;
+package com.test.leetcode;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
-
-import static java.util.Objects.nonNull;
 
 public class GoodPairs {
     public int numIdenticalPairsDebug(int[] nums) {
