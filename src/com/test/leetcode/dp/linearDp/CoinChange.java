@@ -49,6 +49,15 @@ public class CoinChange {
             System.out.print(x+" ");
         }
     }
+
+    /**
+     * Pure Linear Dynamic programming problem with dividing the problem set into multiple subset of problems.
+     * Recursively evaluating each sub problem.
+     * @param coins
+     * @param amount
+     * @param dp
+     * @return
+     */
     static int coinChange(int[] coins, int amount, int[] dp) {
         if(amount ==0 ) return 0;
         int ans = Integer.MAX_VALUE;
