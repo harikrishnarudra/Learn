@@ -1,4 +1,4 @@
-package com.test.model;
+package com.practice.model;
 
 public class Fruit {
     public Fruit(String name, String color) {
