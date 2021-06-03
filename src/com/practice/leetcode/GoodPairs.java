@@ -1,4 +1,4 @@
-package com.test.leetcode;
+package com.practice.leetcode;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 

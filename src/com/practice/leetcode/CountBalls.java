@@ -1,4 +1,4 @@
-package com.test.leetcode;
+package com.practice.leetcode;
 
 //1742. Maximum Number of Balls in a Box
 

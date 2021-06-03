@@ -1,4 +1,4 @@
-package com.test.learn.random.assertions;
+package com.practice.learn.random.assertions;
 
 public class BitOperatorRightShift {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.test.leetcode;
+package com.practice.leetcode;
 
 //1701. Average Waiting Time
 

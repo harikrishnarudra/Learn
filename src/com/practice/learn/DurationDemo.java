@@ -1,4 +1,4 @@
-package com.test.learn;
+package com.practice.learn;
 
 import java.time.Duration;
 import java.time.OffsetDateTime;

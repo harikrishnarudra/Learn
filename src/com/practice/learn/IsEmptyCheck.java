@@ -1,6 +1,5 @@
-package com.test.learn;
+package com.practice.learn;
 
-import static java.util.Objects.isNull;
 import static org.apache.commons.lang3.StringUtils.isEmpty;
 
 public class IsEmptyCheck {

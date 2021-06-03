@@ -1,4 +1,4 @@
-package com.test.leetcode;
+package com.practice.leetcode;
 
 //1732. Find the Highest Altitude
 

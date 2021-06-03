@@ -1,4 +1,4 @@
-package com.test.learn;
+package com.practice.learn;
 
 @FunctionalInterface
 public interface MoreParamFunctionInt {

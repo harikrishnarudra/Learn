@@ -1,4 +1,4 @@
-package com.test.learn;
+package com.practice.learn;
 
 import java.lang.reflect.Method;
 import java.util.function.Function;

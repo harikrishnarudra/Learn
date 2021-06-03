@@ -1,4 +1,4 @@
-package com.test.learn;
+package com.practice.learn;
 
 public class MoreParamFuncTest {
 

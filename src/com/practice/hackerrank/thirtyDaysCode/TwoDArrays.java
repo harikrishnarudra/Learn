@@ -1,4 +1,4 @@
-package com.test.hackerrank.thirtyDaysCode;
+package com.practice.hackerrank.thirtyDaysCode;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,15 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-import java.io .*;
-import java.math .*;
-import java.security .*;
-import java.text .*;
 import java.util .*;
-import java.util.concurrent .*;
-import java.util.function .*;
-import java.util.regex .*;
-import java.util.stream .*;
+
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 

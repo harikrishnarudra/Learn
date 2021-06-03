@@ -1,6 +1,5 @@
-package com.test.learn;
+package com.practice.learn;
 
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.ArrayList;
 import java.util.List;
 

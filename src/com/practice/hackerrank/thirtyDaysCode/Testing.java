@@ -1,4 +1,4 @@
-package com.test.hackerrank.thirtyDaysCode;
+package com.practice.hackerrank.thirtyDaysCode;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;

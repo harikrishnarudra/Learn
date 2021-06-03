@@ -1,4 +1,4 @@
-package com.test.leetcode.dp.linearDp;
+package com.practice.leetcode.dp.linearDp;
 
 /**
  * 357. Count Numbers with Unique Digits

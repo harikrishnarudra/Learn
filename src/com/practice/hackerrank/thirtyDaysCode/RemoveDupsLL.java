@@ -1,6 +1,5 @@
-package com.test.hackerrank.thirtyDaysCode;
+package com.practice.hackerrank.thirtyDaysCode;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 class NodeLL {

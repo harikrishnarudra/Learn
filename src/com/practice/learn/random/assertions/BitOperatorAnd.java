@@ -1,4 +1,4 @@
-package com.test.learn.random.assertions;
+package com.practice.learn.random.assertions;
 
 /**
  * Bit operator AND (&) with any number gives boolean result either 1 or 0.

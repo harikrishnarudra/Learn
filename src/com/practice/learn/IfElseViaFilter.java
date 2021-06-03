@@ -1,6 +1,6 @@
-package com.test.learn;
+package com.practice.learn;
 
-import com.test.model.Fruit;
+import com.practice.model.Fruit;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

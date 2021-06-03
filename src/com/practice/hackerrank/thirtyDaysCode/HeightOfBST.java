@@ -1,8 +1,6 @@
-package com.test.hackerrank.thirtyDaysCode;
+package com.practice.hackerrank.thirtyDaysCode;
 
 import java.util.Scanner;
-import java.util.*;
-import java.io.*;
 
 class Node {
     Node left, right;
