@@ -1,4 +1,4 @@
-package com.practice.microsoft;
+package Interviews.microsoft;
 
 import java.io.BufferedReader;
 import java.io.File;
