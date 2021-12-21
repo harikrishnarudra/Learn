@@ -1,6 +1,6 @@
 package com.practice.model;
 
-public class Fruit {
+public class Fruit implements Cloneable {
     public Fruit(String name, String color) {
         this.fruitName = name;
         this.color = color;
@@ -28,4 +28,15 @@ public class Fruit {
     public String toString() {
         return "Name: " + this.getFruitName() + " color: " + this.getColor();
     }
+
+    public Fruit clone() {
+        Fruit newF = null;
+        try {
+             newF = (Fruit) super.clone();
+        }catch (CloneNotSupportedException exception){
+            exception.printStackTrace();
+        }
+        return newF;
+    }
+
 }

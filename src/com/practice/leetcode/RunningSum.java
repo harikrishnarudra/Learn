@@ -13,12 +13,6 @@ public class RunningSum {
                 return x+y;}).orElseGet(()->0);
         ret.add(sumVal);
         return ret.stream().mapToInt(z -> z.intValue()).toArray();
-
-        /*Stream.of(nums)
-              .mapToInt(value -> )
-              .forEach(System.out::println);*/
-
-        //return nums;
     }
 
     public static void main(String[] args){

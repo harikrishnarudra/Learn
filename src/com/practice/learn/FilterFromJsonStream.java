@@ -12,6 +12,8 @@ import java.util.stream.Collectors;
 public class FilterFromJsonStream {
 
     private static CarIntentRequest createCarIntentRequest(){
+        return null;
+    }/*{
 
         String id = UUID.randomUUID().toString();
         List<Car> cars = List.of(Car.builder().make("Maruti").model("Swift").chassis("CHASSIS_01").identityNum("IN001").build(),
@@ -27,14 +29,14 @@ public class FilterFromJsonStream {
                 .id(id)
                 .sellingUOM("Online")
                 .build();
-    }
+    }*/
 
     public static void main(String[] args) {
-        CarIntentRequest request = createCarIntentRequest();
+        /*CarIntentRequest request = createCarIntentRequest();
         List<String> collect = request.getCarIntents().stream()
                 .map(car -> car.getMake())
                 .collect(Collectors.toList());
-        collect.stream().forEach(System.out::println);
+        collect.stream().forEach(System.out::println);*/
 
     }
 }
