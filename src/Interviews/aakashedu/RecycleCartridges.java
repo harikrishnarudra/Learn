@@ -2,7 +2,7 @@ package Interviews.aakashedu;
 
 public class RecycleCartridges {
 
-    public static int maxPerksItems(int cartridges, int dollars, int recycleReward, int perksCost) {
+    static int maxPerksItems(int cartridges, int dollars, int recycleReward, int perksCost) {
         if((dollars <= 0 && cartridges <= 0) || perksCost <=0) {
             return 0;
         }
