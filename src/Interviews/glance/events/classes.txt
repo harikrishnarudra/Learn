@@ -1,0 +1,29 @@
+
+
+User -> Creator/Viewer
+Event -> eventId, streamId, eventType details of the event
+Search capability of different events
+Search for live streams
+Join any one of it.
+
+streamId - third party service - UUID
+
+
+
+User
+Stream -> VideoStream, AudioStream etc.
+EventType -> Political, Comedy, Learning
+Event ->
+EventActions -> Create, Delete, Suspend
+
+
+API
+Create an Event
+
+POST/PUT - uri/events
+GET -  events
+PATCH - /events
+
+
+
+
