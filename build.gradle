@@ -17,7 +17,7 @@ sourceSets {
 }
 dependencies {
     compile 'junit:junit:4.13.2'
-    implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.10'
     implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
 //    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
     implementation group: 'org.springframework.boot', name: 'spring-boot', version: '2.7.0'
