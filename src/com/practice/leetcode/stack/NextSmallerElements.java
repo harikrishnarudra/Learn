@@ -6,7 +6,7 @@ import java.util.Deque;
 
 public class NextSmallerElements {
 
-    private int[] nextSmallerElements(int[] arr){
+    public int[] nextSmallerElements(int[] arr){
         Deque<Integer> deque = new ArrayDeque<>();
         int[] result = new int[arr.length];
         for(int i = arr.length-1; i>=0; i--){

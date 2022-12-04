@@ -10,7 +10,7 @@ import java.util.Stack;
  */
 public class PreviousSmallerElements {
 
-    private int[] prevSmallerElements(int[] arr){
+    public int[] prevSmallerElements(int[] arr){
         int[] result = new int[arr.length];
 //        Stack<Integer> s = new Stack<>();
         Deque<Integer> s = new ArrayDeque<>();
