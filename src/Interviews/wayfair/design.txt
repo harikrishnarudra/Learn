@@ -1,0 +1,30 @@
+
+1. Billions of DAU on Facebook. For each and every comment of the user, the number of friends associated with them has to be
+shown in the brackets. Ex: Thomas(200).
+Users and user relations are stored in database tables. Efficient way of pulling the information and reflecting as and when
+a friend has been associated or disassociated.
+
+My Proposal - There would be a Cache service and there can be different services available. As and when a user entry has been
+updated or deleted for a user, an event has to be triggered so that every other consumer whoever interested in this event,
+can consume and update their relevant information. Here, Cache service would read the event and update the count value in
+Cache for this particular user.
+
+Cache vs Key-value DB ? which is better here ?
+
+Cache                                       DB
+--------------                          --------------
+No Persistence                          Persistence
+No I/O operation                        I/O operation
+Calculate everything                    Have to maintain a replica
+from beginning if cache
+is down
+
+
+
+2. Google docs. Multiple backend servers are there and based on the documentId the document would go and sit in a specific server
+(based on hash value). There can be many users on one doc and can be a single user on another doc. There can be few requests even
+if there are multiple users on a doc and can have more number of update requests for a single user doc. How can efficiently
+distribute the load balance onto the servers ?
+Documents are loaded onto server's memory for fast access. Distributed database can have I/O operations involved and we are
+introducing an extra latency here.
+Ans - Load balance the requests based on server's cpu utilisation and no of requests it is serving currently.
